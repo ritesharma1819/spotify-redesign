@@ -4,8 +4,9 @@ import Leftbar from "./Leftbar"
 
 const App =()=>{
     return(
-        <div>
+        <div className='app__container'>
            <Leftbar />
+
         </div>
     );
 }
