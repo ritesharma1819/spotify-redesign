@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaHome } from 'react-icons/fa';
+import "./TopContainer.scss";
 
 
 const TopContainer =()=>{
     return(
-        <div>
+        <div className='home_icon'>
             <FaHome size={30} />
-            <p>Home</p>
+            <p className='home_heading'>Home</p>
         </div>
     );
 }
