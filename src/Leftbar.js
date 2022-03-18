@@ -2,6 +2,7 @@ import React from 'react';
 import "./Leftbar.scss";
 import TopContainer from "./TopContainer";
 import MiddleContainer from "./MiddleContainer"
+import BottomContainer from "./BottomContainer"
 
 const Leftbar=()=>{
     return(
@@ -9,6 +10,7 @@ const Leftbar=()=>{
              <img className='logo' src={require('./Spotify-redesign -logos.jpeg')} alt='logo' />
              <TopContainer />
              <MiddleContainer />
+             <BottomContainer />
         </div>
     );
 }
