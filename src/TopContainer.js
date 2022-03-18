@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaHome } from 'react-icons/fa';
+import { HiMusicNote } from 'react-icons/hi';
+import { SiTrendmicro } from 'react-icons/si';
 import "./TopContainer.scss";
 
 
@@ -13,12 +15,12 @@ const TopContainer =()=>{
             </div>
 
             <div className='trends_icon'>
-                <FaHome size={25} />
+                <SiTrendmicro size={25} />
                 <p className='trends_heading'>Trends</p>
             </div>
 
             <div className='library_icon'>
-                <FaHome size={25} />
+                <HiMusicNote size={25} />
                 <p className='library_heading'>Library</p>
             </div> 
             
