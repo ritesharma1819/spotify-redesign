@@ -6,10 +6,12 @@ import "./Rightbar.scss"
 const Rightbar=()=>{
     return(
         <div className='rightbar_container'>
-            <div>
+            <div className='header'>
                 <GrFormPrevious size={25}/>
                 <GrFormNext size={25}/>
-                <input type='search' placeholder=" Taylor Swift"/>
+                <div className='input_box'>
+                    <input type='search' className="search_symbol" placeholder="&#61442; Taylor Swift" />               
+                </div>
             </div>
 
         </div>
