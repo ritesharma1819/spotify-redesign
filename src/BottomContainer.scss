@@ -1,0 +1,43 @@
+// css for liked songs icon 
+.likedsongs_icon{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+.likedsongs_heading{
+    padding: 2rem;
+}
+
+// css for favorite artist icon 
+.favorite_icon{
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.favorite_heading{
+    padding: 2rem;
+}
+
+// css for playlist icon 
+.playlist_icon{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.playlist_heading{
+    padding: 2rem;
+}
+
+// css for bottomcontainer icon 
+.bottomcontainer_icon{
+    margin-left: 2rem;
+}
+
+
+// css for your collection suggestion 
+.yourcollection_suggestion{
+    font-weight: lighter;
+}
+
