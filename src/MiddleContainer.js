@@ -4,8 +4,8 @@ import "./MiddleContainer.scss"
 
 const MiddleContainer =()=>{
     return(
-             <div className='meddilecontainer_icon'>
-                <p className='discover_suggestion'>Discover</p>
+             <div className='middlecontainer_icon'>
+                <p>Discover</p>
                 <div className='discover_icon'>
                     <FaHome size={25} />
                     <p className='discover_heading'>Discover Weekly</p>

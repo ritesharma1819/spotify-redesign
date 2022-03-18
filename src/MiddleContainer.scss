@@ -1,1 +1,38 @@
-// css for discover suggestion
+// css for discover icon 
+.discover_icon{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.discover_heading{
+    padding: 2rem;
+}
+
+// css for made for you icon 
+.made_icon{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.made_heading{
+    padding: 2rem;
+}
+
+// css for daily mix icon 
+.daily_icon{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.daily_heading{
+    padding: 2rem ;
+}
+
+
+// css for middlecontainer icons
+.middlecontainer_icon{
+    margin-left: 2rem;
+} 
