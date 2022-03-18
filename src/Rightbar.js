@@ -18,6 +18,9 @@ const Rightbar=()=>{
                     <input type='search' className="search_symbol" placeholder="&#61442;      Taylor Swift" />               
                 </div>
             </div>
+            <div className='image_container'>
+                <img className='image_styling' src={require('./taylor.jpeg')} alt='Taylor Swift Singer' />
+            </div>
 
         </div>
     );
