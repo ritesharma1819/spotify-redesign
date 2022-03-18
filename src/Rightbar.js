@@ -21,6 +21,12 @@ const Rightbar=()=>{
             <div className='image_container'>
                 <img className='image_styling' src={require('./taylor.jpeg')} alt='Taylor Swift Singer' />
             </div>
+            <div className='song_suggestion'>
+                <h3>Popular</h3>
+                <div className='see_all_container'>
+                    <p>See All</p>
+                </div>
+            </div>
 
         </div>
     );
