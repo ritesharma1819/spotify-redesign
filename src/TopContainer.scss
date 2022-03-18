@@ -1,8 +1,42 @@
+// css for home icon 
 .home_icon{
     display: flex;
     align-items: center;
+    height: 6rem;
 }
 
 .home_heading{
     padding: 2rem;
+}
+
+
+// css for trends icon 
+.trends_icon{
+    display: flex;
+    align-items: center;
+    height: 0.5px;
+}
+
+.trends_heading{
+    padding: 2rem;
+}
+
+// css for library icon 
+.library_icon{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+}
+
+.library_heading{
+    padding: 2rem;
+} 
+
+
+// css for topcontainer
+.topcontainer_icon{
+   margin-bottom: 10rem;
+   margin-left: 2rem;
+   height: 1rem;
+//    width: 2rem;
 }
