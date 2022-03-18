@@ -7,10 +7,15 @@ const Rightbar=()=>{
     return(
         <div className='rightbar_container'>
             <div className='header'>
-                <GrFormPrevious size={25}/>
-                <GrFormNext size={25}/>
+                <div className='pre_and_next_but_sty'>
+                    <GrFormPrevious size={25}/>
+                    <div className='nextbutton_styling'>
+                        <GrFormNext size={25} />
+                    </div>
+                </div>
+                
                 <div className='input_box'>
-                    <input type='search' className="search_symbol" placeholder="&#61442; Taylor Swift" />               
+                    <input type='search' className="search_symbol" placeholder="&#61442;      Taylor Swift" />               
                 </div>
             </div>
 

@@ -1,29 +1,47 @@
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 
+// css of main rightbar container 
 .rightbar_container{
     width: 75%;
 }
 
+// css of search box to adding symbol of search 
 .search_symbol::-webkit-input-placeholder { 
     font-family: FontAwesome;
-    font-weight: normal;
+    font-weight: 900 ;
     overflow: visible;
     vertical-align: top;
     display: inline-block !important;
-    padding-left: 0.5rem;
-    padding-top: 2px;
+    padding-left: 2rem;
+    padding-top: 5px;
 }
 
+// giving hight and wight of search box 
 .input_box input{
-    height: 30px;
-    width: 500px;
+    height: 50px;
+    width: 800px;
     border-radius: 2rem;
-    margin-left: 7rem;
+    margin-left: 6rem;
+    background-color: #f2f3f7;
+    border: thin ;
     
 }
 
+// css for header to arrange in a line 
 .header{
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
     display: flex;
     align-items: flex-start;
+}
+
+// css of previous and next button styling 
+.nextbutton_styling{
+    margin-left: 2rem;
+    
+}
+
+.pre_and_next_but_sty{
+       display: flex;
+       margin-top: 1rem;
 }
