@@ -62,11 +62,33 @@
 
 .song_suggestion{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     margin: 3.5rem;
     margin-top: -0.5rem;
 }
 
 .see_all_container{
    margin-right: 5rem;
+}
+
+
+// css of all suggestion list like title list ,playing list and time list etc 
+.suggestion_list{
+   display: flex;
+   margin-top: -3.5rem;
+   margin-left: 3.5rem;
+   font-weight: 500;
+}
+.title_list{
+    margin-left: 11rem;
+}
+.playing_list{
+    margin-left: 18rem;
+}
+.time_list{
+    margin-left: 11rem;
+}
+
+.album_list{
+    margin-left: 8rem;
 }

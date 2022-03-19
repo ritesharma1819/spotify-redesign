@@ -25,8 +25,15 @@ const Rightbar=()=>{
                 <h3>Popular</h3>
                 <div className='see_all_container'>
                     <p>See All</p>
-                </div>
+                </div> 
             </div>
+            <div className='suggestion_list'>
+                <p>#</p>
+                <p className='title_list'>TITLE</p>
+                <p className='playing_list'>PLAYING</p>
+                <p className='time_list'>TIME</p>
+                <p className='album_list'>ALBUM</p>
+            </div> 
 
         </div>
     );
