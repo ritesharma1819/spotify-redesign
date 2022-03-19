@@ -93,9 +93,36 @@
     margin-left: 8rem;
 }
 
+
+// css portion of all suggested song list 
+.main_container_list{
+    margin-left: 2rem;
+    margin-top:  1rem ;
+    
+}
+
+
+.first_li_container{
+    font-weight: 600 ;
+    margin-bottom: 3rem;
+    background-color: #f2f3f7;
+    height: 3rem;
+    width: max-content;
+}
 .first_list li{
      display: inline;
+
 }
+.first_title_list{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.first_time_list{
+    margin-left: 10.5rem;
+    margin-right: 9.5rem;
+}
+
+
 .second_list li{
     display: inline;
 }

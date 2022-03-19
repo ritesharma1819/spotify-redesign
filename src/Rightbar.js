@@ -34,45 +34,46 @@ const Rightbar=()=>{
                 <p className='time_list'>TIME</p>
                 <p className='album_list'>ALBUM</p>
             </div> 
-            <div>
-                <ol>
-                    <li></li>
-                        <div>
+            <div >
+                <ol className='main_container_list'>
+                    <li className='first_li_container'>
+            
                             <ul className='first_list'>
-                                <li>Wildest Dreams(Taylor's Version)</li>
+                                <li className='first_title_list'>Wildest Dreams(Taylor's Version)</li>
                                 <li>63,637,378</li>
-                                <li>3:40</li>
+                                <li className='first_time_list'>3:40</li>
                                 <li>1998</li>
                             </ul>
-                        </div>
+                
+                    </li>
                     
-                    <li></li>
-                        <div>
+                    <li>
                             <ul className='second_list'>
                                 <li>Blank Space</li>
                                 <li>648,598,809</li>
                                 <li>3:40</li>
                                 <li>1998</li>
                             </ul>
-                        </div>
-                    <li></li>
-                        <div>
-                            <ul className='third_list'>
+
+                    </li>
+                    <li className='third_li_container'>
+                           <ul className='third_list'>
                                 <li>Exile (feat,Bon Iver)</li>
                                 <li>289,455,503</li>
                                 <li>3:40</li>
                                 <li>Folklore</li>
                             </ul>
-                        </div>
-                    <li></li>
-                        <div>
+                    </li>
+                        
+                    <li>
                             <ul className='fourth_list'>
                                 <li>Cardigan</li>
                                 <li>336,863,916</li>
                                 <li>3:40</li>
                                 <li>Folklore</li>
                             </ul>
-                        </div>
+
+                    </li>
                 </ol>
             </div>
 
