@@ -115,7 +115,7 @@
 }
 .first_title_list{
     margin-left: 7rem;
-    margin-right: 7rem;
+    margin-right: 6.5rem;
 }
 .first_time_list{
     margin-left: 10.5rem;
@@ -128,20 +128,22 @@
 }
 .second_title_list{
     margin-left: 7rem;
-    margin-right: 16.5rem;
+    margin-right: 16rem;
 }
 .second_time_list{
-    margin-left: 10rem;
+    margin-left: 10.2rem;
     margin-right: 9.5rem;
 }
 
 
+
+.third_list li{
+    display: inline;
+}
+
 .third_li_container{
     margin-top: 2rem;
     margin-bottom: 2rem;
-}
-.third_list li{
-    display: inline;
 }
 .third_title_list{
     margin-left: 7rem;
@@ -156,5 +158,13 @@
 
 .fourth_list li{
     display: inline;
+}
+.fourth_title_list{
+    margin-left: 7rem;
+    margin-right: 17.5rem;
+}
+.fourth_time_list{
+    margin-left: 10rem;
+    margin-right: 9rem;
 }
 
