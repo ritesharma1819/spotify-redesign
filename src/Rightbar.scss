@@ -104,7 +104,7 @@
 
 .first_li_container{
     font-weight: 600 ;
-    margin-bottom: 3rem;
+    margin-bottom: 0.8rem;
     background-color: #f2f3f7;
     height: 3rem;
     width: max-content;
@@ -125,6 +125,20 @@
 
 .second_list li{
     display: inline;
+}
+.second_title_list{
+    margin-left: 7rem;
+    margin-right: 16.5rem;
+}
+.second_time_list{
+    margin-left: 10rem;
+    margin-right: 9.5rem;
+}
+
+
+.third_li_container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .third_list li{
     display: inline;

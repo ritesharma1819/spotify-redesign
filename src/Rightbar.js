@@ -49,9 +49,9 @@ const Rightbar=()=>{
                     
                     <li>
                             <ul className='second_list'>
-                                <li>Blank Space</li>
+                                <li className='second_title_list'>Blank Space</li>
                                 <li>648,598,809</li>
-                                <li>3:40</li>
+                                <li className='second_time_list'>3:40</li>
                                 <li>1998</li>
                             </ul>
 
