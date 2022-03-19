@@ -58,18 +58,18 @@ const Rightbar=()=>{
                     </li>
                     <li className='third_li_container'>
                            <ul className='third_list'>
-                                <li>Exile (feat,Bon Iver)</li>
+                                <li className='third_title_list'>Exile (feat,Bon Iver)</li>
                                 <li>289,455,503</li>
-                                <li>3:40</li>
+                                <li className='third_time_list'>3:40</li>
                                 <li>Folklore</li>
                             </ul>
                     </li>
                         
                     <li>
                             <ul className='fourth_list'>
-                                <li>Cardigan</li>
+                                <li className='fourth_title_list'>Cardigan</li>
                                 <li>336,863,916</li>
-                                <li>3:40</li>
+                                <li className='fourth_time_list'>3:40</li>
                                 <li>Folklore</li>
                             </ul>
 
