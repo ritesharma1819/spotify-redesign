@@ -1,7 +1,7 @@
 import React from 'react';
 import "./App.scss";
-import Leftbar from "./Leftbar";
-import Rightbar from "./Rightbar"
+import Leftbar from './component/Lelfbar/Leftbar';
+import Rightbar from './component/Rightbar/Rightbar'
 
 const App =()=>{
     return(
